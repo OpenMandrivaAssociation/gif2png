@@ -10,7 +10,6 @@ Patch0:		gif2png-libpng.patch
 BuildRequires:	libpng-devel
 BuildRequires:	zlib-devel
 Requires:	python
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description 
 Tools for converting GIFs to PNGs. The program gif2png converts GIF files to
