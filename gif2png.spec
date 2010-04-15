@@ -1,7 +1,7 @@
 Summary:	Tools for converting websites from using GIFs to using PNGs
 Name:		gif2png
 Version:	2.5.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT style
 Group:		Graphics
 URL:		http://www.catb.org/~esr/gif2png/
@@ -17,9 +17,7 @@ PNG files. The Python script web2png converts an entire web tree, also patching
 HTML pages to keep IMG SRC references correct.
 
 %prep
-
 %setup -q
-#%patch0 -p0
 
 %build
 %configure2_5x
@@ -38,5 +36,3 @@ rm -rf %{buildroot}
 %doc README NEWS COPYING
 %{_mandir}/*/*
 %{_bindir}/*
-
-
