@@ -1,7 +1,7 @@
 Summary:	Tools for converting websites from using GIFs to using PNGs
 Name:		gif2png
 Version:	2.5.8
-Release:	10
+Release:	11
 License:	MIT style
 Group:		Graphics
 Url:		http://www.catb.org/~esr/gif2png/
