@@ -1,7 +1,7 @@
 Summary:	Tools for converting websites from using GIFs to using PNGs
 Name:		gif2png
-Version:	2.5.8
-Release:	12
+Version:	2.5.14
+Release:	1
 License:	MIT style
 Group:		Graphics
 Url:		http://www.catb.org/~esr/gif2png/
@@ -19,8 +19,7 @@ HTML pages to keep IMG SRC references correct.
 %setup -q
 
 %build
-%configure2_5x
-%make
+%make CC="%{__cc}"
 
 %install
 %makeinstall_std
