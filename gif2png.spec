@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 Summary:	Tools for converting websites from using GIFs to using PNGs
 Name:		gif2png
 Version:	2.5.14
