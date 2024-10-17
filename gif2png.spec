@@ -5,7 +5,7 @@ Version:	2.5.14
 Release:	2
 License:	MIT style
 Group:		Graphics
-Url:		http://www.catb.org/~esr/gif2png/
+Url:		https://www.catb.org/~esr/gif2png/
 Source0:	http://www.catb.org/~esr/gif2png/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libpng)
 BuildRequires:	pkgconfig(zlib)
