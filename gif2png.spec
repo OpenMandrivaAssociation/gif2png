@@ -7,6 +7,7 @@ License:	MIT style
 Group:		Graphics
 Url:		https://www.catb.org/~esr/gif2png/
 Source0:	http://www.catb.org/~esr/gif2png/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	pkgconfig(libpng)
 BuildRequires:	pkgconfig(zlib)
 Requires:	python
